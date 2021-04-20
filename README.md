@@ -1,2 +1,2 @@
 # Frontend-Plataformas
-Proyecto Desarrolado por 
+Proyecto Desarrolado por Jean Pierre Agudelo y Juan Nicolas Ruiz Muñoz
