@@ -10,11 +10,12 @@ function asignarVariables() {
 	console.log("ENTRA A asignar variables");
 	
   sesiones["about.html"] = document.getElementById("about.html");
+  sesiones["gallery.html"] = document.getElementById("gallery.html");
   sesiones["news.html"] = document.getElementById("news.html");
   sesiones["schedule.html"] = document.getElementById("schedule.html");
-  sesiones["gallery.html"] = document.getElementById("gallery.html");
   sesiones["drivers.html"] = document.getElementById("drivers.html");
   sesiones["index.html"] = document.getElementById("index.html");
+  sesiones["contact.html"] = document.getElementById("contact.html");
 }
 function asignarEventos(){
 	console.log("ENTRA A asignar eventos");
