@@ -8,11 +8,11 @@ function init(){
 
 function asignarVariables() {
 	console.log("ENTRA A asignar variables");
-  sesiones["about.html"] = document.getElementById("about_road");
-  sesiones["news.html"] = document.getElementById("news_road");
-  sesiones["schedule.html"] = document.getElementById("schedule_road");
-  sesiones["gallery.html"] = document.getElementById("gallery_road");
-  sesiones["drivers.html"] = document.getElementById("drivers_road");
+  sesiones["about.html"] = document.getElementById("about.html");
+  sesiones["news.html"] = document.getElementById("news.html");
+  sesiones["schedule.html"] = document.getElementById("schedule.html");
+  sesiones["gallery.html"] = document.getElementById("gallery.html");
+  sesiones["drivers.html"] = document.getElementById("drivers.html");
 }
 function asignarEventos(){
 	console.log("ENTRA A asignar eventos");
@@ -24,7 +24,7 @@ function asignarEventos(){
 }
 function navegacion(event){
 	console.log("ENTRA A navegacion");
-    console.log(event, target);
+    //console.log(event, target);
 	var id = event.target.id;
 	location.href= id;
 	
