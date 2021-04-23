@@ -24,6 +24,7 @@ function asignarEventos(){
 }
 function navegacion(event){
 	console.log("ENTRA A navegacion");
+    console.log(event, target);
 	var id = event.target.id;
 	location.href= id;
 	
