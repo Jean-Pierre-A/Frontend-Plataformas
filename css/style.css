@@ -281,7 +281,7 @@ ul.dropdown-menu li {
 /*-- info --*/
 section.info-w3ls {
 	padding:100px 0;
-	background: rgb(73, 27, 238);
+	background: rgb(0, 0, 0);
 }
 section.info-w3ls .ch-grid {
 	margin:0px auto;
@@ -325,7 +325,7 @@ section.info-w3ls .info-agileits p {
 section.info-w3ls .info-agileits a {
 	font-size:16px;
 	font-weight:normal;
-	color:#000;
+	color:rgb(255, 255, 255);
 	text-decoration:none;
 	display:inline-block;
 	font-family: 'Michroma', sans-serif;
