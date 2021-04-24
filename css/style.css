@@ -281,6 +281,7 @@ ul.dropdown-menu li {
 /*-- info --*/
 section.info-w3ls {
 	padding:100px 0;
+	background: rgb(73, 27, 238);
 }
 section.info-w3ls .ch-grid {
 	margin:0px auto;
