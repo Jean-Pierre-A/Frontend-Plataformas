@@ -310,7 +310,7 @@ section.info-w3ls .info-agileits {
 section.info-w3ls .info-agileits h4 {
 	font-size:22px;
 	font-weight:normal;
-	color:#1ca0de;
+	color:#ffffff;
 	text-transform:capitalize;
 	padding-bottom:20px;
 	font-family: 'Michroma', sans-serif;
@@ -371,7 +371,7 @@ section.testimonial-w3ls {
 section.testimonial-w3ls h3.text-center {
 	font-size:40px;
 	font-weight:normal;
-	color:#1ca0de;
+	color:#ffffff;
 	padding-bottom:50px;
 	font-family: 'Michroma', sans-serif;
 } 
@@ -452,7 +452,7 @@ section.special-agileinfo {
 	margin:0;
 }
 section.special-agileinfo .col-lg-6.col-md-6.col-sm-6.special-w3l2 {
-    background-color: #1ca0de;
+    background-color: #000000;
 }
 section.special-agileinfo h3 {
     font-size: 28px;
@@ -557,7 +557,7 @@ section.recent-agileinfo {
 section.recent-agileinfo h3.text-center {
 	font-size:40px;
 	font-weight:normal;
-	color:#1ca0de;
+	color:#ffffff;
 	padding-bottom:50px;
 	font-family: 'Michroma', sans-serif;
 } 
@@ -619,7 +619,7 @@ section.recent-agileinfo h3.text-center {
 section.last-w3layouts {
 	margin:0;
 	padding:30px 0;
-	background-color: #1ca0de;
+	background-color: #000000;
 	text-align:center;
 }
 a.bottom-agile {
