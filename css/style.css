@@ -716,12 +716,12 @@ section.inner-w3ls {
 section.inner-w3ls h3.text-center {
 	font-size:45px;
 	font-weight:normal;
-	color:#1ca0de;
+	color:#000000;
 	padding-bottom:30px;
 	font-family: 'Michroma', sans-serif;
 }	
 section.inner-w3ls .breadcrumb {
-	background-color: #1ca0de;
+	background-color: #000000;
 	text-align:center;
 	margin-bottom:0;
 }
@@ -749,7 +749,7 @@ section.about-w3layouts,section.team-w3layouts,section.video-w3ls,section.result
 section.about-w3layouts h3,section.team-w3layouts h3,section.video-w3ls h3,section.schedule-w3layouts h3,section.results-w3ls h3,section.contact-w3ls h3 {
 	font-size:35px;
 	font-weight:normal;
-	color:#1ca0de;
+	color:#000000;
 	padding-bottom:50px;
 	font-family: 'Michroma', sans-serif;
 }
