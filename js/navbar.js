@@ -11,7 +11,6 @@ function asignarVariables() {
 	
   sesiones["about.html"] = document.getElementById("about.html");
   sesiones["gallery.html"] = document.getElementById("gallery.html");
-  sesiones["news.html"] = document.getElementById("news.html");
   sesiones["schedule.html"] = document.getElementById("schedule.html");
   sesiones["drivers.html"] = document.getElementById("drivers.html");
   sesiones["index.html"] = document.getElementById("index.html");
