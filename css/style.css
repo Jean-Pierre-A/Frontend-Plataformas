@@ -211,6 +211,11 @@ body {
 	left: 20px;
 	top: 26px;
 }
+#label-registro{
+  position:absolute;
+	left: 100px;
+	top: 26px;
+}
 .nav-link{
 	color: white;
 	text-decoration: none;
@@ -241,6 +246,9 @@ input[type="checkbox"] {
 #show:checked ~ .container1{
   display: block;
 }
+#show1:checked ~ #containerRegistro{
+  display: block;
+}
 .container1 .close-btn{
   position: absolute;
   right: 20px;
@@ -255,6 +263,7 @@ input[type="checkbox"] {
   font-size: 35px;
   font-weight: 600;
   text-align: center;
+  color:black;
 }
 .container1 .form1{
   margin-top: -20px;
