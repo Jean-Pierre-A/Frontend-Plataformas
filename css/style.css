@@ -964,12 +964,12 @@ section.inner-w3ls {
 section.inner-w3ls h3.text-center {
   font-size: 45px;
   font-weight: normal;
-  color: #000000;
+  color: #ffffff;
   padding-bottom: 30px;
   font-family: "Michroma", sans-serif;
 }
 section.inner-w3ls .breadcrumb {
-  background-color: #000000;
+  background-color: #ffffff;
   text-align: center;
   margin-bottom: 0;
 }
@@ -977,14 +977,14 @@ section.inner-w3ls .breadcrumb li {
   font-size: 17px;
 }
 section.inner-w3ls .breadcrumb li a {
-  color: #a94442;
+  color: #000000;
   text-decoration: none;
 }
 section.inner-w3ls .breadcrumb li a:hover {
   color: red;
 }
 section.inner-w3ls .breadcrumb > .active {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 * {
   margin: 0;
@@ -1006,7 +1006,7 @@ section.results-w3ls h3,
 section.contact-w3ls h3 {
   font-size: 35px;
   font-weight: normal;
-  color: #000000;
+  color: #ffffff;
   padding-bottom: 50px;
   font-family: "Michroma", sans-serif;
 }
@@ -3947,4 +3947,7 @@ section.contact-w3ls button.btn.btn-primary:hover {
   section.contact-w3ls label {
     font-size: 13px;
   }
+}
+#fondo_galeria{
+  background-color: rgb(0, 0, 0);
 }
