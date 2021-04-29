@@ -5,677 +5,549 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>
-        NexusBike
-    </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta
-      name="keywords"
-      content="Bike Race Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
-    />
-    <!-- fonts -->
-    <link href="//fonts.googleapis.com/css?family=Michroma" rel="stylesheet" />
-    <link
-      href="//fonts.googleapis.com/css?family=Comfortaa:300,400,700"
-      rel="stylesheet"
-    />
-    <!-- /fonts -->
-    <!-- css -->
-    <link
-      href="css/bootstrap.min.css"
-      rel="stylesheet"
-      type="text/css"
-      media="all"
-    />
-    <link
-      href="css/font-awesome.min.css"
-      rel="stylesheet"
-      type="text/css"
-      media="all"
-    />
-    <link
-      href="css/aos.css"
-      rel="stylesheet prefetch"
-      type="text/css"
-      media="all"
-    />
-    <link
-      href="css/jquery.mb.thumbgallery.min.css"
-      rel="stylesheet"
-      type="text/css"
-      media="all"
-    />
-    <link href="css/info.css" rel="stylesheet" type="text/css" media="all" />
-   <link href="css/fontello.css" rel="stylesheet" /> 
-    <link href="css/banner.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- /css -->
-  </head>
-  <body>
-    <!-- navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" data-aos="flip-up">
-      <div class="container">
-        <div class="search1">
-          <form action="#" method="post">
-            <div class="input-group">
-             
-              <span class="input-group-btn">
-                
-                  <i class="fa fa-search"></i>
-                </button>
-              </span>
-            </div>
-          </form>
-        </div>
-        <div class="navbar-header">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbar"
-            aria-expanded="false"
-            aria-controls="navbar"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><h1>NexusBike</h1></a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav slide-nav">
-            <li class="active current"><a id = "index.html" href="javascript:void(0);">Inicio</a></li>
-            <li><a id="about.html" href="javascript:void(0);">Acerca de </a></li>
-            
-            <li><a id="schedule.html" href="javascript:void(0);">Calendario</a></li>
-            <li><a id="gallery.html" href="javascript:void(0);">Galeria</a></li>
-            <li><a id="drivers.html" href="javascript:void(0);">Conductores</a></li>
-            <li><a id="contact.html" href="javascript:void(0);">Contacto</a></li>
-            <li class="nav-item" id="frm">
-                            <div class="center">
-                                <input type="checkbox" id="show">
-                                    <label id="label-login" for="show" class="show-btn"><a class="nav-link">Iniciar Sesión</a></label>
-                                    <div class="container1">
-                                        <label for="show" class="close-btn fas fa-times" title="close"></label>
-                                    <div class="text">Inicio de Sesion</div>
-                                        <form action="#" class="form1">
-                                            <div class="data">
-                                                <label>Correo</label>
-                                                <input type="text" required>
-                                            </div>
-                                    <div class="data">
-                                      <label>Contreseña</label>
-                                      <input type="password" required>
-                                    </div>
-                                <div class="forgot-pass">
-                                <a href="#">¿Olvidaste la contraseña?</a></div>
-                                <div class="btn">
-                                <div class="inner">
-                          </div>
-                          <button type="submit">Iniciar Sesion</button>
-                                </div>
-                          </form>
-                          </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="center">
-                            <input type="checkbox" id="show1">
-                            <label id="label-registro" for="show1" class="show-btn"><a class="nav-link">Registrarse</a></label>
-                            <div class="container1" id="containerRegistro">
-                                <label for="show1" class="close-btn fas fa-times" title="close"></label>
-                                <div class="text">Registro</div>
-                                <form action="#" class="form1">
-                                    <div class="data">
-                                        <label>Usuario</label>
-                                        <input type="text" required>
-                                    </div>
-                                    <div class="data">
-                                        <label>Correo</label>
-                                        <input type="text" required>
-                                    </div>
-                                    <div class="data">
-                                        <label>Contreseña</label>
-                                        <input type="password" required>
-                                    </div>
-                                    <div class="btn">
-                                        <div class="inner">
-                                        </div>
-                                        <button type="submit">Registrarse</button>
-                                    </div>
-                                    
-                                </form>
-                            </div>
-                        </div>
-                        </li>
 
-            
-          </ul>
-        </div>
-        <!--/.nav-collapse -->
+<head>
+  <title>
+    NexusBike
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Bike Race Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+  
+  <!-- fonts -->
+  <link href="//fonts.googleapis.com/css?family=Michroma" rel="stylesheet" />
+  <link href="//fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet" />
+  <!-- /fonts -->
+  <!-- css -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/aos.css" rel="stylesheet prefetch" type="text/css" media="all" />
+  <link href="css/jquery.mb.thumbgallery.min.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/info.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/fontello.css" rel="stylesheet" />
+  <link href="css/banner.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+  <!-- /css -->
+
+
+
+
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" data-aos="flip-up">
+    <div class="container">
+      <div class="search1">
+        <form action="#" method="post">
+          <div class="input-group">
+
+            <span class="input-group-btn">
+
+              <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </form>
       </div>
-    </nav>
-    <!-- /navigation -->
-    
-    <!-- banner section -->
-    <div class="demo-2">
-      <div id="slider" class="sl-slider-wrapper">
-        <div class="sl-slider">
-          <div
-            class="sl-slide"
-            data-orientation="horizontal"
-            data-slice1-rotation="-25"
-            data-slice2-rotation="-25"
-            data-slice1-scale="2"
-            data-slice2-scale="2"
-          >
-            <div class="sl-slide-inner">
-              <div class="bg-img bg-img-1"></div>
-              <div class="container">
-                <h3>The Age Of Bike Race</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sl-slide"
-            data-orientation="vertical"
-            data-slice1-rotation="10"
-            data-slice2-rotation="-15"
-            data-slice1-scale="1.5"
-            data-slice2-scale="1.5"
-          >
-            <div class="sl-slide-inner">
-              <div class="bg-img bg-img-2"></div>
-              <div class="container">
-                <h3>NexusBike Es Pasión</h3>
-                <p>Bienvenido Al Mejor lugar sobre Motocicletas</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sl-slide"
-            data-orientation="horizontal"
-            data-slice1-rotation="3"
-            data-slice2-rotation="3"
-            data-slice1-scale="2"
-            data-slice2-scale="1"
-          >
-            <div class="sl-slide-inner">
-              <div class="bg-img bg-img-3"></div>
-              <div class="container">
-                <h3>NexusBike es más que una pagina</h3>
-                <p>Somos Un Sentimiento</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sl-slide"
-            data-orientation="vertical"
-            data-slice1-rotation="-5"
-            data-slice2-rotation="25"
-            data-slice1-scale="2"
-            data-slice2-scale="1"
-          >
-            <div class="sl-slide-inner">
-              <div class="bg-img bg-img-4"></div>
-              <div class="container">
-                <h3>NexusBike La Revolución</h3>
-                <p>Un Se</p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="sl-slide"
-            data-orientation="horizontal"
-            data-slice1-rotation="-5"
-            data-slice2-rotation="10"
-            data-slice1-scale="2"
-            data-slice2-scale="1"
-          >
-            <div class="sl-slide-inner">
-              <div class="bg-img bg-img-5"></div>
-              <div class="container">
-                <h3>Disfruta tu Moto</h3>
-                <p>Vive Cada Momento con tu moto</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- /sl-slider -->
-        <nav id="nav-dots" class="nav-dots">
-          <span class="nav-dot-current"></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </nav>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+          aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <h1>NexusBike</h1>
+        </a>
       </div>
-      <!-- /slider-wrapper -->
-    </div>
-    <!-- /banner section -->
-    <!-- info section -->
-    <section class="info-w3ls">
-      <div class="container">
-        <div class="col-lg-6 col-md-6 info-wthree">
-          <div class="info-agile1">
-            <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
-              <div class="ch-grid">
-                <div>
-                  <div class="ch-item">
-                    <div class="ch-info">
-                      <div class="ch-info-front ch-img-1"></div>
-                      <div class="ch-info-back1">
-                        <h3>NexusBike</h3>
-                        <p>Siente La velocidad</p>
-                      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav slide-nav">
+          <li class="active current"><a id="index.html" href="javascript:void(0);">Inicio</a></li>
+          <li><a id="about.html" href="javascript:void(0);">Acerca de </a></li>
+
+          <li><a id="schedule.html" href="javascript:void(0);">Calendario</a></li>
+          <li><a id="gallery.html" href="javascript:void(0);">Galeria</a></li>
+          <li><a id="drivers.html" href="javascript:void(0);">Conductores</a></li>
+          <li><a id="contact.html" href="javascript:void(0);">Contacto</a></li>
+          <li class="nav-item" id="frm">
+            <div class="center">
+              <input type="checkbox" id="show">
+              <label id="label-login" for="show" class="show-btn"><a class="nav-link">Iniciar Sesión</a></label>
+              <div class="container1">
+                <label for="show" class="close-btn fas fa-times" title="close"></label>
+                <div class="text">Inicio de Sesion</div>
+                <form action="#" class="form1">
+                  <div class="data">
+                    <label>Usuario/label>
+                    <input type="text" name="nom" required >
+                  </div>
+                  <div class="data">
+                    <label>Contreseña</label>
+                    <input type="password" name="contra" required>
+                  </div>
+                  <div class="forgot-pass">
+                    <a href="#">¿Olvidaste la contraseña?</a>
+                  </div>
+                  <div class="btn">
+                    <div class="inner">
                     </div>
+                    <button onclick="login(this.form.nom.value,this.form.contra.value);" type="button">Iniciar Sesion</button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
-            <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
-              <div class="info-agileits">
-                <h4>Concejos</h4>
-                <p>
-                  Tendras concejos sobre como llevar el manejo de tu moto dia a dia
-                </p>
-                <a href="blogpost.html"
-                  ><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
-                  Más</a
-                >
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 info-wthree">
-          <div class="info-agile1">
-            <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
-              <div class="ch-grid">
-                <div>
-                  <div class="ch-item">
-                    <div class="ch-info">
-                      <div class="ch-info-front ch-img-2"></div>
-                      <div class="ch-info-back2">
-                        <h3>Bike Race</h3>
-                        <p>Taste the Thrill</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
-              <div class="info-agileits">
-                <h4>Estilos</h4>
-                <p>
-                  Conoceras los diferentes estilos de Motocicletas Que te convengan más
-                </p>
-                <a href="blogpost.html"
-                  ><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
-                  Más</a
-                >
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-        <div class="col-lg-6 col-md-6 info-wthree">
-          <div class="info-agile1">
-            <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
-              <div class="ch-grid">
-                <div>
-                  <div class="ch-item">
-                    <div class="ch-info">
-                      <div class="ch-info-front ch-img-3"></div>
-                      <div class="ch-info-back3">
-                        <h3>Bike Race</h3>
-                        <p>Feel the Adrenaline</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
-              <div class="info-agileits">
-                <h4>Vehículos</h4>
-                <p>
-                  En NexusBike No solo Nos Apasiona Las motos, de igual forma los vehiculos por eso Ven a conocer todo sobre ellos
-                </p>
-                <a href="blogpost.html"
-                  ><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
-                  Más</a
-                >
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6 info-wthree">
-          <div class="info-agile2">
-            <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
-              <div class="ch-grid">
-                <div>
-                  <div class="ch-item">
-                    <div class="ch-info">
-                      <div class="ch-info-front ch-img-4"></div>
-                      <div class="ch-info-back4">
-                        <h3>Bike Race</h3>
-                        <p>Feel the Power</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
-              <div class="info-agileits">
-                <h4>Talleres</h4>
-                <p>
-                  Si vives en Medellín te daremos Información Sobre los Mejores talleres tanto para motos Como para Carros
-                </p>
-                <a href="blogpost.html"
-                  ><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
-                  Más</a
-                >
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </section>
-    <!-- /info section -->
-    <!-- testimonial section -->
-    <section class="testimonial-w3ls jarallax">
-      <div class="container">
-        <h3 class="text-center">Nuestros Comentarios</h3>
-        <!-- Slideshow 1 -->
-        <ul class="rslides" id="slider1">
-          <li>
-            <div class="col-lg-6 col-md-6 w3-agileits1" data-aos="flip-left">
-              <div class="test-agile">
-                <p class="test-p1">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Phasellus interdum lacus mi. Quisque iaculis consectetur ex at
-                  rutrum. Donec nisl libero, porta euismod tempus eu, dapibus
-                  iaculis est.
-                </p>
-                <div class="test-agileits">
-                  <div class="test-wthree1">
-                    <h4>Jennifer Lopez</h4>
-                    <p class="test-p2">Bike Racer</p>
-                  </div>
-                  <div class="test-wthree2">
-                    <img
-                      src="images/test-img1.jpg"
-                      alt=""
-                      class="img-circle img-responsive"
-                    />
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 w3-agileits2" data-aos="flip-right">
-              <div class="test-agile">
-                <p class="test-p1">
-                  Praesent convallis urna massa, et malesuada justo egestas ut.
-                  Phasellus pharetra elit ut elit mollis condimentum. Donec eu
-                  luctus mi. Phasellus vestibulum sem non est placerat.
-                </p>
-                <div class="test-agileits">
-                  <div class="test-wthree1">
-                    <h4>Elizabeth</h4>
-                    <p class="test-p2">Biker Gang Leader</p>
-                  </div>
-                  <div class="test-wthree2">
-                    <img
-                      src="images/test-img2.jpg"
-                      alt=""
-                      class="img-circle img-responsive"
-                    />
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix"></div>
           </li>
           <li>
-            <div class="col-lg-6 col-md-6 w3-agileits1" data-aos="flip-left">
-              <div class="test-agile">
-                <p class="test-p1">
-                  At luctus nisi commodo. Vivamus pulvinar odio eget semper
-                  pulvinar.Nunc ante ligula, congue eget aliquet eu, iaculis
-                  vitae diam. Nullam eu ex vel velit pharetra auctor ac vel
-                  augue.
-                </p>
-                <div class="test-agileits">
-                  <div class="test-wthree1">
-                    <h4>Johnny Blaze</h4>
-                    <p class="test-p2">Bike Enthusiast</p>
+            <div class="center">
+              <input type="checkbox" id="show1">
+              <label id="label-registro" for="show1" class="show-btn"><a class="nav-link">Registrarse</a></label>
+              <div class="container1" id="containerRegistro">
+                <label for="show1" class="close-btn fas fa-times" title="close"></label>
+                <div class="text">Registro</div>
+                <form class="form1" id="form_registro"  method="POST">
+                  <div class="data">
+                    <label>Usuario</label>
+                    <input  type="text" required name="nombre">
                   </div>
-                  <div class="test-wthree2">
-                    <img
-                      src="images/test-img3.jpg"
-                      alt=""
-                      class="img-circle img-responsive"
-                    />
+                  <div class="data">
+                    <label>Correo</label>
+                    <input  type="email" required name="email">
                   </div>
-                  <div class="clearfix"></div>
-                </div>
+                  <div class="data">
+                    <label>Contreseña</label>
+                    <input  type="password" required name="contrasena">
+                  </div>
+                  <div class="btn">
+                    <div class="inner">
+                    </div>
+                    <button onclick="registerNewUser(this.form.nombre.value, this.form.email.value, this.form.contrasena.value);" type="button" >Registrarse</button>
+                  </div>
+
+                </form>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 w3-agileits2" data-aos="flip-right">
-              <div class="test-agile">
-                <p class="test-p1">
-                  Ut non turpis et justo tincidunt pretium a a purus. Aliquam
-                  ullamcorper orci mattis nulla rutrum, a viverra lectus
-                  tincidunt. Fusce eget eros justo. Duis hendrerit ex gravida.
-                </p>
-                <div class="test-agileits">
-                  <div class="test-wthree1">
-                    <h4>Max Payne</h4>
-                    <p class="test-p2">Bike Racer</p>
-                  </div>
-                  <div class="test-wthree2">
-                    <img
-                      src="images/test-img4.jpg"
-                      alt=""
-                      class="img-circle img-responsive"
-                    />
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix"></div>
           </li>
-          <li>
-            <div class="col-lg-6 col-md-6 w3-agileits1" data-aos="flip-left">
-              <div class="test-agile">
-                <p class="test-p1">
-                  In mattis lorem ac tincidunt maximus. Nam feugiat porta nibh
-                  vel scelerisque. Fusce sodales velit et blandit rutrum. Aenean
-                  laoreet aliquam imperdiet.Ut lorem purus fermentum.
-                </p>
-                <div class="test-agileits">
-                  <div class="test-wthree1">
-                    <h4>Elina Wilson</h4>
-                    <p class="test-p2">Racing Organizer</p>
-                  </div>
-                  <div class="test-wthree2">
-                    <img
-                      src="images/test-img5.jpg"
-                      alt=""
-                      class="img-circle img-responsive"
-                    />
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 w3-agileits2" data-aos="flip-right">
-              <div class="test-agile">
-                <p class="test-p1">
-                  Euismod auctor urna. Etiam sed ullamcorper neque. Curabitur
-                  fermentum, augue non egestas accumsan, enim mi aliquam justo,
-                  in vulputate purus justo sed felis. Nulla eget est.
-                </p>
-                <div class="test-agileits">
-                  <div class="test-wthree1">
-                    <h4>Britney Spears</h4>
-                    <p class="test-p2">Biker</p>
-                  </div>
-                  <div class="test-wthree2">
-                    <img
-                      src="images/test-img6.jpg"
-                      alt=""
-                      class="img-circle img-responsive"
-                    />
-                  </div>
-                  <div class="clearfix"></div>
-                </div>
-              </div>
-            </div>
-            <div class="clearfix"></div>
-          </li>
+
+
         </ul>
       </div>
-    </section>
-    <!-- testimonial section -->
-    <!-- special section -->
-    <section class="special-agileinfo">
-      <div class="container-fluid">
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 special-w3l1"
-          data-aos="flip-left"
-        >
-          <div class="hover01 column">
-            <div>
-              <figure>
-                <img
-                  src="images/special-img.jpg"
-                  alt=""
-                  class="img-responsive"
-                />
-              </figure>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+  <!-- /navigation -->
+
+  <!-- banner section -->
+  <div class="demo-2">
+    <div id="slider" class="sl-slider-wrapper">
+      <div class="sl-slider">
+        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25"
+          data-slice1-scale="2" data-slice2-scale="2">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-1"></div>
+            <div class="container">
+              <h3>The Age Of Bike Race</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
             </div>
           </div>
         </div>
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 special-w3l2"
-          data-aos="flip-right"
-        >
-          <div class="special-w3-agile">
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              aliquet, lectus facilisis consectetur suscipit, quam felis iaculis
-              nisl, tincidunt scelerisque ante ipsum vitae nibh. Praesent justo
-              sem, posuere et lorem in, euismod semper purus. Nulla id leo eu
-              ante accumsan aliquam.
-            </p>
-            <a href="blogpost.html"
-              ><i class="fa fa-hand-o-right" aria-hidden="true"></i> Read
-              More</a
-            >
+        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15"
+          data-slice1-scale="1.5" data-slice2-scale="1.5">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-2"></div>
+            <div class="container">
+              <h3>NexusBike Es Pasión</h3>
+              <p>Bienvenido Al Mejor lugar sobre Motocicletas</p>
+            </div>
           </div>
         </div>
-        <div class="clearfix"></div>
-      </div>
-    </section>
-    <!-- /special section -->
-    <!-- recent pics section -->
-    <section class="recent-agileinfo jarallax">
-      <div class="container">
-        <h3 class="text-center" data-aos="zoom-in">Our Recent Pics</h3>
-        <section class="content" data-aos="zoom-in">
-          <div
-            id="thumbGrid"
-            class="thumbGrid"
-            data-thumbgrid="true"
-            data-nav_effect="slideInverse"
-            data-nav_delay="60"
-            data-nav_timing="300"
-            data-nav_pagination="3"
-            data-gallery_effectnext="fadeIn"
-            data-gallery_effectprev="fadeOut"
-            data-gallery_fullscreenw="90%"
-            data-gallery_fullscreenh="90%"
-            data-gallery_cover="false"
-          >
-            <img
-              src="images/recent1.jpg"
-              data-highres="images/recent1-1.jpg"
-              data-caption="Parturient Bibendum Malesuada Etiam"
-            />
-            <img
-              src="images/recent2.jpg"
-              data-highres="images/recent2-2.jpg"
-              data-caption="Lorem ipsum dolor sit amet"
-            />
-            <img
-              src="images/recent3.jpg"
-              data-highres="images/recent3-3.jpg"
-              data-caption="Adipiscing Inceptos Ornare Cursus"
-            />
-            <img
-              src="images/recent4.jpg"
-              data-highres="images/recent4-4.jpg"
-              data-caption="Etiam Purus Sollicitudin Fusce"
-            />
-            <img
-              src="images/recent5.jpg"
-              data-highres="images/recent5-5.jpg"
-              data-caption="Parturient Bibendum Malesuada Etiam"
-            />
-            <img
-              src="images/recent6.jpg"
-              data-highres="images/recent6-6.jpg"
-              data-caption="Magna Pharetra Inceptos"
-            />
-            <img
-              src="images/recent7.jpg"
-              data-highres="images/recent7-7.jpg"
-              data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            />
-            <img
-              src="images/recent8.jpg"
-              data-highres="images/recent8-8.jpg"
-              data-caption="Venenatis Purus Parturient"
-            />
+        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3"
+          data-slice1-scale="2" data-slice2-scale="1">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-3"></div>
+            <div class="container">
+              <h3>NexusBike es más que una pagina</h3>
+              <p>Somos Un Sentimiento</p>
+            </div>
           </div>
-        </section>
+        </div>
+        <div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25"
+          data-slice1-scale="2" data-slice2-scale="1">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-4"></div>
+            <div class="container">
+              <h3>NexusBike La Revolución</h3>
+              <p>Un Se</p>
+            </div>
+          </div>
+        </div>
+        <div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10"
+          data-slice1-scale="2" data-slice2-scale="1">
+          <div class="sl-slide-inner">
+            <div class="bg-img bg-img-5"></div>
+            <div class="container">
+              <h3>Disfruta tu Moto</h3>
+              <p>Vive Cada Momento con tu moto</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+      <!-- /sl-slider -->
+      <nav id="nav-dots" class="nav-dots">
+        <span class="nav-dot-current"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </nav>
+    </div>
+    <!-- /slider-wrapper -->
+  </div>
+  <!-- /banner section -->
+  <!-- info section -->
+  <section class="info-w3ls">
+    <div class="container">
+      <div class="col-lg-6 col-md-6 info-wthree">
+        <div class="info-agile1">
+          <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
+            <div class="ch-grid">
+              <div>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-1"></div>
+                    <div class="ch-info-back1">
+                      <h3>NexusBike</h3>
+                      <p>Siente La velocidad</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
+            <div class="info-agileits">
+              <h4>Concejos</h4>
+              <p>
+                Tendras concejos sobre como llevar el manejo de tu moto dia a dia
+              </p>
+              <a href="blogpost.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
+                Más</a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 info-wthree">
+        <div class="info-agile1">
+          <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
+            <div class="ch-grid">
+              <div>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-2"></div>
+                    <div class="ch-info-back2">
+                      <h3>Bike Race</h3>
+                      <p>Taste the Thrill</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
+            <div class="info-agileits">
+              <h4>Estilos</h4>
+              <p>
+                Conoceras los diferentes estilos de Motocicletas Que te convengan más
+              </p>
+              <a href="blogpost.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
+                Más</a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="col-lg-6 col-md-6 info-wthree">
+        <div class="info-agile1">
+          <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
+            <div class="ch-grid">
+              <div>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-3"></div>
+                    <div class="ch-info-back3">
+                      <h3>Bike Race</h3>
+                      <p>Feel the Adrenaline</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
+            <div class="info-agileits">
+              <h4>Vehículos</h4>
+              <p>
+                En NexusBike No solo Nos Apasiona Las motos, de igual forma los vehiculos por eso Ven a conocer todo
+                sobre ellos
+              </p>
+              <a href="blogpost.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
+                Más</a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 info-wthree">
+        <div class="info-agile2">
+          <div class="col-xs-5 info-w3layouts1" data-aos="flip-left">
+            <div class="ch-grid">
+              <div>
+                <div class="ch-item">
+                  <div class="ch-info">
+                    <div class="ch-info-front ch-img-4"></div>
+                    <div class="ch-info-back4">
+                      <h3>Bike Race</h3>
+                      <p>Feel the Power</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-7 info-w3layouts2" data-aos="flip-right">
+            <div class="info-agileits">
+              <h4>Talleres</h4>
+              <p>
+                Si vives en Medellín te daremos Información Sobre los Mejores talleres tanto para motos Como para Carros
+              </p>
+              <a href="blogpost.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Leer
+                Más</a>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <!-- /info section -->
+  <!-- testimonial section -->
+  <section class="testimonial-w3ls jarallax">
+    <div class="container">
+      <h3 class="text-center">Nuestros Comentarios</h3>
+      <!-- Slideshow 1 -->
+      <ul class="rslides" id="slider1">
+        <li>
+          <div class="col-lg-6 col-md-6 w3-agileits1" data-aos="flip-left">
+            <div class="test-agile">
+              <p class="test-p1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Phasellus interdum lacus mi. Quisque iaculis consectetur ex at
+                rutrum. Donec nisl libero, porta euismod tempus eu, dapibus
+                iaculis est.
+              </p>
+              <div class="test-agileits">
+                <div class="test-wthree1">
+                  <h4>Jennifer Lopez</h4>
+                  <p class="test-p2">Bike Racer</p>
+                </div>
+                <div class="test-wthree2">
+                  <img src="images/test-img1.jpg" alt="" class="img-circle img-responsive" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 w3-agileits2" data-aos="flip-right">
+            <div class="test-agile">
+              <p class="test-p1">
+                Praesent convallis urna massa, et malesuada justo egestas ut.
+                Phasellus pharetra elit ut elit mollis condimentum. Donec eu
+                luctus mi. Phasellus vestibulum sem non est placerat.
+              </p>
+              <div class="test-agileits">
+                <div class="test-wthree1">
+                  <h4>Elizabeth</h4>
+                  <p class="test-p2">Biker Gang Leader</p>
+                </div>
+                <div class="test-wthree2">
+                  <img src="images/test-img2.jpg" alt="" class="img-circle img-responsive" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+        <li>
+          <div class="col-lg-6 col-md-6 w3-agileits1" data-aos="flip-left">
+            <div class="test-agile">
+              <p class="test-p1">
+                At luctus nisi commodo. Vivamus pulvinar odio eget semper
+                pulvinar.Nunc ante ligula, congue eget aliquet eu, iaculis
+                vitae diam. Nullam eu ex vel velit pharetra auctor ac vel
+                augue.
+              </p>
+              <div class="test-agileits">
+                <div class="test-wthree1">
+                  <h4>Johnny Blaze</h4>
+                  <p class="test-p2">Bike Enthusiast</p>
+                </div>
+                <div class="test-wthree2">
+                  <img src="images/test-img3.jpg" alt="" class="img-circle img-responsive" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 w3-agileits2" data-aos="flip-right">
+            <div class="test-agile">
+              <p class="test-p1">
+                Ut non turpis et justo tincidunt pretium a a purus. Aliquam
+                ullamcorper orci mattis nulla rutrum, a viverra lectus
+                tincidunt. Fusce eget eros justo. Duis hendrerit ex gravida.
+              </p>
+              <div class="test-agileits">
+                <div class="test-wthree1">
+                  <h4>Max Payne</h4>
+                  <p class="test-p2">Bike Racer</p>
+                </div>
+                <div class="test-wthree2">
+                  <img src="images/test-img4.jpg" alt="" class="img-circle img-responsive" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+        <li>
+          <div class="col-lg-6 col-md-6 w3-agileits1" data-aos="flip-left">
+            <div class="test-agile">
+              <p class="test-p1">
+                In mattis lorem ac tincidunt maximus. Nam feugiat porta nibh
+                vel scelerisque. Fusce sodales velit et blandit rutrum. Aenean
+                laoreet aliquam imperdiet.Ut lorem purus fermentum.
+              </p>
+              <div class="test-agileits">
+                <div class="test-wthree1">
+                  <h4>Elina Wilson</h4>
+                  <p class="test-p2">Racing Organizer</p>
+                </div>
+                <div class="test-wthree2">
+                  <img src="images/test-img5.jpg" alt="" class="img-circle img-responsive" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 w3-agileits2" data-aos="flip-right">
+            <div class="test-agile">
+              <p class="test-p1">
+                Euismod auctor urna. Etiam sed ullamcorper neque. Curabitur
+                fermentum, augue non egestas accumsan, enim mi aliquam justo,
+                in vulputate purus justo sed felis. Nulla eget est.
+              </p>
+              <div class="test-agileits">
+                <div class="test-wthree1">
+                  <h4>Britney Spears</h4>
+                  <p class="test-p2">Biker</p>
+                </div>
+                <div class="test-wthree2">
+                  <img src="images/test-img6.jpg" alt="" class="img-circle img-responsive" />
+                </div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <!-- testimonial section -->
+  <!-- special section -->
+  <section class="special-agileinfo">
+    <div class="container-fluid">
+      <div class="col-lg-6 col-md-6 col-sm-6 special-w3l1" data-aos="flip-left">
+        <div class="hover01 column">
+          <div>
+            <figure>
+              <img src="images/special-img.jpg" alt="" class="img-responsive" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 special-w3l2" data-aos="flip-right">
+        <div class="special-w3-agile">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
+            aliquet, lectus facilisis consectetur suscipit, quam felis iaculis
+            nisl, tincidunt scelerisque ante ipsum vitae nibh. Praesent justo
+            sem, posuere et lorem in, euismod semper purus. Nulla id leo eu
+            ante accumsan aliquam.
+          </p>
+          <a href="blogpost.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Read
+            More</a>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </section>
+  <!-- /special section -->
+  <!-- recent pics section -->
+  <section class="recent-agileinfo jarallax">
+    <div class="container">
+      <h3 class="text-center" data-aos="zoom-in">Our Recent Pics</h3>
+      <section class="content" data-aos="zoom-in">
+        <div id="thumbGrid" class="thumbGrid" data-thumbgrid="true" data-nav_effect="slideInverse" data-nav_delay="60"
+          data-nav_timing="300" data-nav_pagination="3" data-gallery_effectnext="fadeIn"
+          data-gallery_effectprev="fadeOut" data-gallery_fullscreenw="90%" data-gallery_fullscreenh="90%"
+          data-gallery_cover="false">
+          <img src="images/recent1.jpg" data-highres="images/recent1-1.jpg"
+            data-caption="Parturient Bibendum Malesuada Etiam" />
+          <img src="images/recent2.jpg" data-highres="images/recent2-2.jpg" data-caption="Lorem ipsum dolor sit amet" />
+          <img src="images/recent3.jpg" data-highres="images/recent3-3.jpg"
+            data-caption="Adipiscing Inceptos Ornare Cursus" />
+          <img src="images/recent4.jpg" data-highres="images/recent4-4.jpg"
+            data-caption="Etiam Purus Sollicitudin Fusce" />
+          <img src="images/recent5.jpg" data-highres="images/recent5-5.jpg"
+            data-caption="Parturient Bibendum Malesuada Etiam" />
+          <img src="images/recent6.jpg" data-highres="images/recent6-6.jpg" data-caption="Magna Pharetra Inceptos" />
+          <img src="images/recent7.jpg" data-highres="images/recent7-7.jpg"
+            data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit" />
+          <img src="images/recent8.jpg" data-highres="images/recent8-8.jpg" data-caption="Venenatis Purus Parturient" />
+        </div>
+      </section>
+    </div>
+  </section>
 
-    <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD"
-    <!-- /recent pics section -->
+  <a href="https://api.whatsapp.com/send?phone=Tu-n%C3%B9mero-aqu%C3%AD" <!-- /recent pics section -->
     <!-- last section -->
     <section class="last-w3layouts">
       <div class="container">
-        <a href="index.html" class="bottom-agile"
-          ><h2 class="text-center">NexusBike</h2></a>
+        <a href="index.html" class="bottom-agile">
+          <h2 class="text-center">NexusBike</h2>
+        </a>
         <p class="text-center">
           Jean Pierre Agudelo & Juan Nicolas Muñoz<br>
-          <a href="mailto:jean.agudelo@upb.edu.co">jean.agudelo@upb.edu.co</a> ||  <a href="mailto:juann.ruiz@upb.edu.co">juann.ruiz@upb.edu.co</a><br>
+          <a href="mailto:jean.agudelo@upb.edu.co">jean.agudelo@upb.edu.co</a> || <a
+            href="mailto:juann.ruiz@upb.edu.co">juann.ruiz@upb.edu.co</a><br>
           &copy; 2017 Bike Race. All Rights Reserved | Design by
           <a href="http://w3layouts.com/" target="_blank"> W3layouts </a>
-         
+
         </p>
       </div>
     </section>
-    <a href="https://api.whatsapp.com/send?phone=3114113938" class="btn-wpp" target="_blank"><i class="icon-whatsapp"></i></a>
+    <a href="https://api.whatsapp.com/send?phone=3114113938" class="btn-wpp" target="_blank"><i
+        class="icon-whatsapp"></i></a>
     <!-- last section -->
     <!-- back to top -->
     <a href="#0" class="cd-top">Top</a>
@@ -775,10 +647,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </script>
     <!-- /js for testimonials -->
     <!-- js for banner section -->
-
+    <script type="text/javascript" src="js/validacion.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/jquery.ba-cond.min.js"></script>
     <script type="text/javascript" src="js/jquery.slitslider.js"></script>
+    
     <script type="text/javascript">
       $(function () {
         var Page = (function () {
@@ -820,15 +693,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          */
 
         /*
-				
-				var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
-				
-				// call the plugin's add method
-				ss.add($items);
+      	
+        var $items  = $('<div class="sl-slide sl-slide-color-2" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1"><div class="sl-slide-inner bg-1"><div class="sl-deco" data-icon="t"></div><h2>some text</h2><blockquote><p>bla bla</p><cite>Margi Clarke</cite></blockquote></div></div>');
+      	
+        // call the plugin's add method
+        ss.add($items);
 
-				*/
+        */
       });
     </script>
     <!-- /js for banner section -->
-  </body>
+    <script src="js/vendor/pristine.min.js"></script>
+</body>
+
 </html>
