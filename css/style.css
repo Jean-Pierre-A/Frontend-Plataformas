@@ -3951,3 +3951,33 @@ section.contact-w3ls button.btn.btn-primary:hover {
     font-size: 13px;
   }
 }
+.usuario{
+  /*display:inline-block;*/
+  margin:10px;
+  justify-self: center;
+  color: #ffffff;
+}
+.grid_parent{
+  /*https://cssgrid-generator.netlify.com/*/
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  right: 80%;
+  background: rgb(68, 67, 67);
+  width:1310px;
+  height:1000px;
+
+}
+.h1API{
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 50px;
+  background-color: #000000;
+}
+.img-circle{
+  border-radius: 80%;
+}
+
