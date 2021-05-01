@@ -1,0 +1,22 @@
+{
+  "name": "frontend-plataformas",
+  "version": "1.0.0",
+  "description": "Proyecto Desarrolado por Jean Pierre Agudelo y Juan Nicolas Ruiz Muñoz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jean-Pierre-A/Frontend-Plataformas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jean-Pierre-A/Frontend-Plataformas/issues"
+  },
+  "homepage": "https://github.com/Jean-Pierre-A/Frontend-Plataformas#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
