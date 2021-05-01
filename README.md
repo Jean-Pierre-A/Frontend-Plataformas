@@ -7,4 +7,4 @@ https://w3layouts.com/template/bike-race-sports-category-flat-bootstrap-responsi
 Cabe resaltar que se modifico en gran parte el diseño de esta creando y eliminando secciones de esta, aún asi 
 damos los derechos correspondientes a w3layouts.
 
-El sitio se encuenta funcional en git hub pages.
+El sitio se encuentra funcional en git hub pages.
