@@ -3980,4 +3980,9 @@ section.contact-w3ls button.btn.btn-primary:hover {
 .img-circle{
   border-radius: 80%;
 }
+.a-github{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+}
 
